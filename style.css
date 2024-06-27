@@ -1,0 +1,45 @@
+        body {
+            background-color: black;
+            overflow: hidden; /* Impede o scroll horizontal */
+            position: relative; /* Garante que os shapes sejam posicionados relativamente ao body */
+            margin: 0;
+            padding: 0;
+        }
+        .shape {
+            background-color: #3d2688;
+            border-radius: 15%;
+            position: absolute;
+        }
+        .shape.shape1 {
+            width: 160px;
+            height: 160px;
+        }
+        .shape.shape2 {
+            width: 200px;
+            height: 200px;
+        }
+        .shape.shape3 {
+            width: 160px;
+            height: 160px;
+        }
+        .shape.shape4 {
+            width: 260px;
+            height: 260px;
+        }
+        .central-box {
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            z-index: 10; 
+            position: relative;
+        }
+        .central-box .icon {
+            border-radius: 50%;
+            padding: 20px;
+            display: inline-block;
+        }
+        .central-box .icon img {
+            width: 40px;
+            height: 40px;
+        }
